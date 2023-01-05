@@ -17,18 +17,11 @@ body
     align-items: center;
     justify-content: center;
 }
-#rowInput
-{
-    margin: 10px;
-}
 #button1
 {
-    margin: 10px;
+    margin: 20px;
 }
-#button2
-{
-    margin: 10px;
-}
+
 #div1
 {
     display: flex;
