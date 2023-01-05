@@ -1,0 +1,43 @@
+/* css reset  */
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #78ded5;
+   
+}
+#sec1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rowInput
+{
+    margin: 20px;
+}
+#button1
+{
+    margin: 20px;
+}
+#button2
+{
+    margin: 20px;
+}
+#div1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sec1 p
+{
+    color: white;
+    font-size: x-large;
+}

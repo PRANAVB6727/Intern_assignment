@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="csv.js"></script>
+    <title>Read And Display CSV data</title>
+  </head>
+  <body>
+    
+    <section id="sec1" class="container">
+      <h1>This is webpage to read and display the csv file</h1>
+      <p>
+        
+          1) Enter the number of rows you want to display on webpage from CSV file in the input box.
+          <br>
+          2) Click "Get CSV" button to view the CSV file in the form of table.
+          <br>
+          3) Press the "RESET" button to clear the entries in table.
+          
+      </p>
+      <div id="div1">
+        <input type="number" id="rowInput" placeholder="Enter Number of rows">
+        <button id="button1" class="btn btn-primary">Get CSV</button>
+        <button id="button2" class="btn btn-primary">Reset</button>
+
+      </div>
+    </section>
+
+    <section class="container" id="sec2">
+        <table id="table1"  class="container table table-sm">
+        </table>
+    </section>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
